@@ -1,0 +1,15 @@
+.defaultButton {
+  font-family: sans-serif;
+  background-color: $primary_button_color;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: $button_text;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

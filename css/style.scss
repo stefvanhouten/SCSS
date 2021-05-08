@@ -1,0 +1,39 @@
+@import './variables';
+@import './default_styles';
+@import './mixins';
+
+@import './navbar';
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: $background_color;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2 {
+  margin: 0px;
+}
+
+.projects {
+ padding: 10px;
+}
+
+.test {
+  @extend .defaultButton;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 10px 10px 0px 0px;;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: $secondary_color;
+}

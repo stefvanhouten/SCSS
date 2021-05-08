@@ -1,0 +1,18 @@
+.navbar {
+  @include flexVerticalCenter();
+
+  background: $primary_color;
+  height: 75px;
+
+  a {
+    font-weight: 600;
+    color: $navigation_text;
+    text-decoration: none;
+    margin-left: 10px;
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+}
